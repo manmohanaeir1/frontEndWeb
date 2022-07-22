@@ -13,6 +13,12 @@ body{
 body #main-header h1{
     font-weight: 400;
     margin:4px 50px;
+    /* display: inline-block; */
+}
+
+#main-header p{
+    /* display: inline-block; */
+    float: right;
 }
 h1{
     color:yellow;
@@ -20,5 +26,14 @@ h1{
 
 #main-header{
     border: 3px dashed #0af;
+
+}
+
+.content h1{
+    color: #0af;
+    font-size: 50px;
+    font-weight: 600;
+    margin: 4px 5px;
+    padding: 20px 20px;
 
 }
