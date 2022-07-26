@@ -1,0 +1,82 @@
+#main-header{
+    border-bottom: 2px solid brown;
+}
+
+.search{
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+    height: 50px;
+        border-bottom: 1px solid rgb(65, 63, 63);
+}
+.search:focus{
+    background-color: rgb(181, 216, 233);
+    color: rgb(0, 255, 38);
+    outline: none;
+
+}
+
+#nav li{
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    font-size: 40px;
+    padding: 30px;
+}
+#top-stories{
+    width: 1000px;
+    margin:auto;
+    border: 2 px solid red;
+    
+}
+
+#top-stories, article{
+    max-width: 30%;
+    display: inline-block;
+    
+}
+
+
+
+#top-stories article, img {
+   max-width: 100%;
+   
+}
+
+#top-stories a{
+    /* text-decoration: none; */ 
+    /* text-decoration: line-through;  */
+    text-decoration: overline underline; 
+
+    color: red;
+}
+/* 
+#top-stories a:hover{
+    color: blue;
+} */
+
+#top-stories p{
+    letter-spacing: 3px;   
+    /* for line spacing */
+
+    word-spacing: 2px;
+}
+
+#top-stories p{
+    text-indent: 30px;
+    text-align: center;
+    text-shadow: 3px 2px 4px  red
+}
+
+
+.box {
+    border: 3px solid black;
+    box-shadow: 3px 4px  8px rgba(0, 0, 0, .5);
+}
+.box:active{
+    opacity: 5;
+}
+
+#top-stories a:hover{
+    color: rgb(25, 25, 209);
+}
