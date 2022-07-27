@@ -1,0 +1,9 @@
+.nav  li{
+    list-style-type: none;
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    font-size: 20px;
+}
